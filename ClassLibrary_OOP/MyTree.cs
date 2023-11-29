@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Interfaces_OOP;
 
 namespace ClassLibrary_OOP
 {
@@ -19,7 +15,7 @@ namespace ClassLibrary_OOP
             Right = null;
         }
     }
-    public class MyTree
+    public class MyTree : ITree
     {
         public TreeNode Root { get; private set; }
         private int count;

@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Interfaces_OOP;
 
 namespace ClassLibrary_OOP
 {
-    public class MyList
+    public class MyList : IList
     {
         private object[] array;
         private int count;
